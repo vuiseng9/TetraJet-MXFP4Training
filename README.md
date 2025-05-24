@@ -1,8 +1,8 @@
 # TetraJet: Oscillation-Reduced MXFP4 Training
 
-This repo provides the official implementation of "Oscillation-Reduced MXFP4 Training for Vision Transformers".
+This repo provides the official implementation of "Oscillation-Reduced MXFP4 Training for Vision Transformers" (ICML 2025).
 
-**Oscillation-Reduced MXFP4 Training for Vision Transformers**  
+**[ICML 2025] Oscillation-Reduced MXFP4 Training for Vision Transformers**  
 Paper: https://arxiv.org/abs/2502.20853
 
 > **Abstract**  
