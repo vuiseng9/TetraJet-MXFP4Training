@@ -43,10 +43,12 @@ Due to hardware limitations, we only provide the simulation codes of MXFP4 fully
 
 If you find this work useful, please consider citing:
 ```bibtex
-@article{chen2025oscillation,
-  title={Oscillation-Reduced MXFP4 Training for Vision Transformers},
-  author={Chen, Yuxiang and Xi, Haocheng and Zhu, Jun and Chen, Jianfei},
-  journal={arXiv preprint arXiv:2502.20853},
-  year={2025}
+@inproceedings{
+  chen2025oscillationreduced,
+  title={Oscillation-Reduced {MXFP}4 Training for Vision Transformers},
+  author={Yuxiang Chen and Haocheng Xi and Jun Zhu and Jianfei Chen},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  url={https://openreview.net/forum?id=LUFPNGiCUw}
 }
 ```
