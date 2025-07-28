@@ -34,6 +34,8 @@ import dllogger as DLLogger
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
+from fp4tk import FP4LinearConverter, FP4_RECIPES
+
 def get_args_parser():
     parser = argparse.ArgumentParser('DeiT training and evaluation script', add_help=False)
     
@@ -349,6 +351,11 @@ def main(args):
         img_size=args.input_size,
         args=args # needed for building QUANTIZATION
     )
+    FP4LinearConverter().apply(
+        model, 
+        recipe=FP4_RECIPES["tetrajet"], 
+        keywords=["qkv", "proj", "fc1", "fc2"] )
+    print(model)
     for name, module in model.named_modules():
         module.layer_name = name # needed for LOGGING
                     
