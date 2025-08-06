@@ -27,4 +27,4 @@ python -m torch.distributed.run --nproc_per_node=4 --master_port=29501 main.py \
     --qchoice all --qlinear-all \
     --fabit 4 --fwbit 4 --babit 4 --bwbit 4 \
     --faexp 2 --fwexp 2 --baexp 2 --bwexp 2 \
-    > $SCRIPT_PATH/${LOGS_NAME}/${TIMESTAMP}.log 2>&1 &
+    > ${PATH_TO_SAVE}/${Experiment_NAME}/${TIMESTAMP}.log 2>&1 &
