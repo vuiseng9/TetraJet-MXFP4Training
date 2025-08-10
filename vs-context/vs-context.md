@@ -3,7 +3,7 @@ This is where we capture all related environment, branch and results
 
 1. ootb train (250725-reproduce), log: https://github.com/vuiseng9/TetraJet-MXFP4Training/blob/250725-reproduce/scripts/Pretrain-TetraJet/log.2025-07-25_20-05-33.pretrain-deit_tiny
 2. first run with fp4tk (250727-use-fp4tk), log: https://github.com/vuiseng9/TetraJet-MXFP4Training/blob/250727-use-fp4tk/scripts/Pretrain-TetraJet/log.2025-07-28_00-53-46.pretrain-deit_tiny
-3. second run post implementation fix (250806-use-fp4tk)
+3. second run post implementation fix (250806-use-fp4tk), log: https://github.com/vuiseng9/TetraJet-MXFP4Training/blob/250806-use-fp4tk/scripts/Pretrain-TetraJet/log.2025-08-06_10-56-10.pretrain-deit_tiny
 
 > pls push log to each branch after each completed run, they are saved in volume which will be deleted in future (because it is not free)
 ### Environments
